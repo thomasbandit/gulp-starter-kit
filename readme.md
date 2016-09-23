@@ -1,3 +1,3 @@
-# A Simple React, SCSS & Webpack example
+# A Simple Gulp starter kit
 
-Tired of searching through the thousands of seemingly overcomplicated Webpack starter-kits here's a really simple Webpack setup for a web app with React and SCSS.
+A simple Gulp starter kit with ES6/Babel 6, inline assets, HTML minification, image minification, SCSS and Webpack.
