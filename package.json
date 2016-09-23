@@ -1,0 +1,40 @@
+{
+  "name": "thomas-gulp-starter-kit",
+  "version": "1.0.0",
+  "description": "A simple Gulp starter kit with ES6/Babel 6, inline assets, HTML minification, image minification, SCSS and Webpack",
+  "author": "Thomas Mills",
+  "scripts": {
+    "dev": "gulp",
+    "production": "gulp build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "node-sass": "^3.8.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.13.2",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  }
+}
