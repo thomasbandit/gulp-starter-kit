@@ -12,6 +12,7 @@ var config = {
       {
         test: /\.js?/,
         loaders: ['babel'],
+        exclude: /node_modules/,
         include: path.resolve(__dirname, '../src/js')
       }
     ]
