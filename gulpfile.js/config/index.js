@@ -24,6 +24,10 @@ var config = {
     settings: {
       outputStyle: 'compressed'
     }
+  },
+  svg: {
+    src: SRC_DIR + '/img/sprite/**/*.svg',
+    dest: BUILD_DIR + '/assets/img'
   }
 };
 

@@ -29,6 +29,7 @@
     "gulp-notify": "^2.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-svgstore": "^6.0.0",
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.9",
     "node-sass": "^3.8.0",

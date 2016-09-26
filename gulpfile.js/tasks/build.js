@@ -6,6 +6,7 @@ gulp.task('build', function(callback) {
     'webpack:production',
     'sass:production',
     'minify:html',
-    'images'
+    'images',
+    'svg'
   ], 'inlineSource', callback);
 });

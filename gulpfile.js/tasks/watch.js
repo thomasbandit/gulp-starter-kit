@@ -11,6 +11,10 @@ gulp.task('watch', function() {
     gulp.start('images');
   });
 
+  watch(config.svg.src, function() {
+    gulp.start('svg');
+  });
+
 	watch(config.sass.watchSrc, function() {
     gulp.start('sass');
   });
